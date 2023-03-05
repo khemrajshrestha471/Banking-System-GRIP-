@@ -9,9 +9,11 @@
   </li>
   
   <li>
-  </li>
-  Thanks to <i>'The Sparks Foundation'</i> for this platform and helps enhancing and 
+      Thanks to <i>'The Sparks Foundation'</i> for this platform and helps enhancing and 
 gives ideas on hands on plus real life experiences.
+  </li>
+
 </ul>
 
 Thank You and Happy Coding...!
+--- Khemraj Shrestha
