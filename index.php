@@ -56,7 +56,7 @@
                     });
                 </script>
                 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-                <script src="sweetmsg.js"></script>
+                <script src="joining.js"></script>
 
     <?php
             }

@@ -15,7 +15,7 @@ $result = mysqli_query($conn, $sql);
     <title>Dataset - Banking System</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="bgcss.css">
+    <link rel="stylesheet" href="viewdata.css">
 
     <!-- adding jquery features using databales.net to fetch data from the database and for clear visibility -->
 
