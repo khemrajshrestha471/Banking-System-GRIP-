@@ -1,6 +1,5 @@
 <!-- navbar for all page is common -->
 
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
     <div class="container-fluid">
         <a class="navbar-brand" href="https://www.thesparksfoundationsingapore.org/" target="_blank">GRIP</a>
@@ -24,6 +23,14 @@
 
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="viewdata.php">View Dataset</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="transaction_record.php">Transaction History</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="balance_enquiry.php">Balance Enquiry</a>
                 </li>
 
                 <li class="nav-item">

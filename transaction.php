@@ -66,6 +66,11 @@
                     $query_sender = mysqli_query($conn, $sender_final);
                     $receiver_final = "UPDATE `intern` SET `current_balance`='$receiver_balance' WHERE email = '$email2'";
                     $query_receiver = mysqli_query($conn, $receiver_final);
+
+                    // insertring the record in another table for the transaction history
+
+                    $send = "INSERT INTO `records` (`sn`, `sender_email`, `receiver_email`, `transfer_amount`, `date`) VALUES (NULL, '$email1', '$email2', '$balance', current_timestamp());";
+                    $query = mysqli_query($conn, $send);
     ?>
                     <script>
                         swal({
