@@ -23,6 +23,7 @@ $result = mysqli_query($conn, $sql);
 
 <body>
     <h3>Here's the transaction history, fetching from the database...!</h3>
+    <h5>(Date & Time shown here is in <span>UTC</span> format, So convert to your zone accordingly...)</h5>
     <div class="container" style="margin-top:50px;">
 
         <!-- creating table and fetching the data accordingly in a loop -->
