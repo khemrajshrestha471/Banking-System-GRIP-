@@ -69,7 +69,7 @@
 
                     // insertring the record in another table for the transaction history
 
-                    $send = "INSERT INTO `records` (`sn`, `sender_email`, `receiver_email`, `transfer_amount`, `date`) VALUES (NULL, '$email1', '$email2', '$balance', date_default_timezone_set());";
+                    $send = "INSERT INTO `records` (`sn`, `sender_email`, `receiver_email`, `transfer_amount`, `date`) VALUES (NULL, '$email1', '$email2', '$balance', current_timestamp());";
                     $query = mysqli_query($conn, $send);
     ?>
                     <script>
